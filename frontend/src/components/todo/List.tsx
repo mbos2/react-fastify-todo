@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import {TodoAPI} from '../../services/todo.service';
 import Create from "./Create";
 import DeleteItem from "./Delete";

@@ -103,6 +103,14 @@ ul li:not(:last-child) {
   border: 1px solid #2196F3;
 }
 
+.form button:disabled,
+.form button[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed;
+}
+
 .delete {
   padding: 5px 10px;
   background-color: #f29891;
@@ -116,3 +124,4 @@ ul li:not(:last-child) {
   background-color: #eb4034;
   cursor: pointer; 
 }
+
